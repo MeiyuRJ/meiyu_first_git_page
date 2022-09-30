@@ -1,0 +1,36 @@
+---
+title: "MDS 521 Lecture notes 8"
+subtitle: "learn to creat slides with xaringan"
+author: "Meiyu Zheng"
+date: "2022/09/30 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+  
+---
+```{r my first code chunk}
+#let's assign a number to x
+x <- 8.8
+x
+```
+---
+      
+```{r addition}
+#title: caculate a plus b 
+a <- 1
+b <- 2
+a+b
+```
+---
+```{r correlation-no-warning, warning = FALSE}
+# what is correlation?
+cor( c( 1 , 1 ), c( 2 , 3 ) )
+```
+---
+Xaringan is cool!
+    
+
